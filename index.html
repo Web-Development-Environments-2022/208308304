@@ -1,84 +1,151 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Iris Kor</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Concert+One&family=Tapestry&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+
 </head>
 <body>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="d4VkVB3i"></script>
+<img id="logo" src="/photos/1.png">  
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
+    <ul id="menu_list">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#photos">My Photos</a></li>
+      <li><a href="#playlist">My Playlist</a></li>
+      <li><a href="#like">Like</a></li>
+      <li><a href="#qrcoder">QR code</a></li>
+      <li><a href="#spa">Q&A</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
 <section id="about" class="section">
 <br/>
 <br/>
+  <h2>About me</h2>
+<img class="OpenImage" src="photos/open.jpeg"
+      style="height: 350px;" />
+<p class="aboutme">
+  My name is Iris Kor, I'm 74 years old and I live in Modiin.<br/>
+  <br/><br/>      
+  I was born in Morocco and made an Aliha in 1958.<br/><br/> 
+  I lived in Jerusalem, and at 18 years old I met Ya'akov, my husband.<br/><br/>        
+  Together We have 4 Wonderful children, and 15 grandchildren.<br/><br/> 
+  My mission in life is to visit as many places in the world as possible!
+  And spread love and happiness to anyone I meet. <br/><br/> 
+  for me, the most important thing in life is my family and that is why I feel blessed being srrunded by them.<br/><br/> 
+</p>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
 <br/>
 <br/>
 <br/>
 </section>
 
-<section id="photos" class="section">
+<section id="photos" class="section"style="width:100%">
 <br/>
 <br/>
+  <h2>My Photos</h2>
+  <p style="margin-left: 15%;">see me and my beautiful family: </p>
+<table id=photosTable >
+  <tr>
+    <td style="width:50%; height: 600">
+  <div class="row">
+    <div class="column">
+      <img src="/photos/iris1.jpeg" alt="יום הולדת 73" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris2.jpeg" alt="יום יפה עם הנכדים" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris3.jpeg" alt="אני והילדים שלי" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/photos/iris4.jpeg" alt="(הנכדים שלי (14/15" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris5.jpeg" alt="מעבירה סדנת אפייה בית הספר" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris6.jpeg" alt="מטיילת במזרח" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/photos/iris7.jpeg" alt="יצאתי לראות כלניות" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris8.jpeg" alt="חנוכה 2021" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+    <div class="column">
+      <img src="/photos/iris9.jpeg" alt="?הגענו כבר" onclick="swapPics(this);" onmouseover="swapPics(this);">
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <img src="/photos/iris11.jpeg" alt="יום הולדת לאסנת" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+  <div class="column">
+    <img src="/photos/iris10.jpeg" alt="יום יפה עם חיים" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+  <div class="column">
+    <img src="/photos/iris12.jpeg" alt="גלידה עם סבתא" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="/photos/iris13.jpeg" alt="עם אחותי דודי" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+  <div class="column">
+    <img src="/photos/iris15.jpeg" alt="שעת משחק" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+  <div class="column">
+    <img src="/photos/iris14.jpeg" alt="לפני 15 שנה" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+  <div class="column">
+    <img src="/photos/iris16.jpeg" alt="עם ליז ואלון" onclick="swapPics(this);" onmouseover="swapPics(this);">
+  </div>
+</div>
+</td>
+<td id="largepic" style="width:50%;height: 500">
+  <div class="container">
+    <img id="expandedImg" src="/photos/iris1.jpeg" alt="Iris" style="width:85%">
+    <!--div id="imgtext"--><!--/div-->
+  </div>
+  <div id="imgtext"></div>
+</td>
+</tr>
+</table>
+
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
 <br/>
 <br/>
 <br/>
 </section>
+
 
 <section id="playlist" class="section">
 <br/>
 <br/>
+<h2>Listen to my favorite song</h2>
+<div class="seperator">
+I really like old french chansons
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z7NUYzJ0Fho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
+</div>
 <br/>
 <br/>
 </section>
@@ -86,21 +153,15 @@ my playlist
 <section id="like" class="section">
 <br/>
 <br/>
+  <h2>Please Like my page</h2>
 <br/>
 <br/>
+<div class="seperator">
+<p align="center">
+  <div class="fb-like" data-href="https://web-development-environments-2022.github.io/208308304/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+</p>
+</div>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
 <br/>
 <br/>
 <br/>
@@ -109,21 +170,13 @@ give me a like
 <section id="qrcoder" class="section">
 <br/>
 <br/>
+  <h2>Scan my code</h2>
 <br/>
 <br/>
+<div class="seperator">
+<img src="photos/QRcode.png" >
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
+</div>
 <br/>
 <br/>
 <br/>
@@ -132,21 +185,85 @@ scan my code
 <section id="spa" class="section">
 <br/>
 <br/>
+  <h2>Questions & Answers</h2>
 <br/>
 <br/>
+<span style="margin-left: 15%;">Q1: Mention three differences between Web1.0, Web2.0, Web3.0</span>
+<br>
+<button class="showAns" style="margin-left: 15%;">Show Answer</button>
+<div class="answer">
+  <table style="width: 100%;">
+    <br>
+    <tr>
+      <th>Difference</th>
+      <th>Web 1.0</th>
+      <th>Web 2.0</th>
+      <th>Web 3.0</th>
+    </tr>
+    <tr>
+      <td>User Abilities</td>
+      <td>Read-Only</td>
+      <td>Read-Write</td>
+      <td>Read-Write-Execute</td>
+    </tr>
+    <tr>
+      <td>User Interaction</td>
+      <td>The pages were static and were used as portals with links, users can navigate through the links to find information, and read the pages</td>
+      <td>Users can search for information, and publish content that other users can consume, share and comment on</td>
+      <td>Personal and portable, applications are using AI technique (natural language) to personalize user experience.  </td>
+    </tr>
+    <tr>
+      <td>Primary Streaming Media</td>
+      <td>Home Pages</td>
+      <td>Wikipedia, Blogs, Facebook, YouTube</td>
+      <td>Live-Streaming, Waze</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>Message Boards, personal web sites</td>
+      <td>Community portals, social networks</td>
+      <td>Semantic social networks, semantic forums</td>
+    </tr>
+  </table>
+</div>
+  <br/>
+  <br/>
+  <span style="margin-left: 15%;">Q2: Explain the differences by using use case</span>
+  <br>
+  <button class="showAns" style="margin-left: 15%;">Show Answer</button>
+  <div class="answer">
+  <table style="width: 100%;">
+    <br>
+    <tr>
+      <th colspan="4">The user will search for the term "python".</th>
+    </tr>
+    <tr>
+      <td>Difference</td>
+      <td>Web 1.0</td>
+      <td>Web 2.0</td>
+      <td>Web 3.0</td>
+    </tr>
+    <tr>
+      <td>User Interaction</td>
+      <td>The user has to do the search manualy by going through hyperlinks.</td>
+      <td>The user will enter the term "python" in a search engine, he will get links to information about python (most likely the animal) and possibly links for photos and videos, results might not be relevant</td>
+      <td>The user will enter the term "python" in a search engine, and will get relevat and personilized information like if the user is intrested in programming the result might include recommended Courses for learning python, or information relevant to his location like meet-ups</td>
+    </tr>
+    <tr>
+      <td>Primary Streaming Media</td>
+      <td>The pages that will be provided are home pages with the subject of python</td>
+      <td>The pages that will be provided are python's Wikipedia page and photos and videos about python, the user can comment and ask questions</td>
+      <td>The pages that will be provided are youtube's videos about python, and related subjects like programming, data analysis using python, and questions that people asked about python</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>The user can post to his personal site his interest with python</td>
+      <td>The user can share and comment via social platforms his interest in python</td>
+      <td>The user can participate in live streams, and live online courses related to python</td>
+    </tr>
+    </table>
+</div>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
 <br/>
 <br/>
 <br/>
@@ -155,28 +272,42 @@ ans
 <section id="contact" class="section">
 <br/>
 <br/>
+  <h2>Contact Me</h2>
+<br/>
+<br/>
+<br/>
+<form action="mailto:nitzanhe@post.bgu.ac.il?Subject=Mail To Iris" method="POST" enctype="text/plain">
+  <label for="email">
+    <span>Your Email Address: </span>
+    <input type="text" id="email" placeholder=""><br><br>
+  </label>
+  <link rel="stylesheet" href="emojii/emojionearea.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="emojii/emojionearea.min.js"></script>
+  <label for="MailContent">
+    Message:<br/>
+    <textarea id="MailContent" name="body" rows="10" cols="10" maxlength="150" placeholder="Write to me..." required></textarea>
+    <script>$(document).ready(function(){$("#MailContent").emojioneArea();})</script>
+    <br><br>
+  </label>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+</form> 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
 <br/>
 <br/>
 <br/>
 </section>
 
 
+
 <script type="text/javascript">
+  /*This script is for menu navigation  */
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
@@ -191,3 +322,32 @@ $(function(){
  </script>
 </body>
 </html>
+
+<script>
+  /*this script is for the photos gallery bar*/
+  function swapPics(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "flex";
+}
+</script>
+
+<script>
+  /*This script is for show the answer by clicking on the button  */
+  var acc = document.getElementsByClassName("showAns");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var answer = this.nextElementSibling;
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    }
+</script>
